@@ -1,0 +1,86 @@
+{
+  "S101": {
+    "Monday": [
+      { "period": 1, "time": "08:00-08:45", "subject": "Mathematics" },
+      { "period": 2, "time": "08:45-09:30", "subject": "Science" },
+      { "period": 3, "time": "09:45-10:30", "subject": "English" },
+      { "period": 4, "time": "10:30-11:15", "subject": "Social Science" },
+      { "period": 5, "time": "11:30-12:15", "subject": "Hindi" }
+    ],
+    "Tuesday": [
+      { "period": 1, "time": "08:00-08:45", "subject": "Science" },
+      { "period": 2, "time": "08:45-09:30", "subject": "Mathematics" },
+      { "period": 3, "time": "09:45-10:30", "subject": "Computer Science" },
+      { "period": 4, "time": "10:30-11:15", "subject": "English" },
+      { "period": 5, "time": "11:30-12:15", "subject": "Physical Education" }
+    ],
+    "Wednesday": [
+      { "period": 1, "time": "08:00-08:45", "subject": "English" },
+      { "period": 2, "time": "08:45-09:30", "subject": "Social Science" },
+      { "period": 3, "time": "09:45-10:30", "subject": "Mathematics" },
+      { "period": 4, "time": "10:30-11:15", "subject": "Science" },
+      { "period": 5, "time": "11:30-12:15", "subject": "Hindi" }
+    ],
+    "Thursday": [
+      { "period": 1, "time": "08:00-08:45", "subject": "Mathematics" },
+      { "period": 2, "time": "08:45-09:30", "subject": "Hindi" },
+      { "period": 3, "time": "09:45-10:30", "subject": "Science" },
+      { "period": 4, "time": "10:30-11:15", "subject": "Computer Science" },
+      { "period": 5, "time": "11:30-12:15", "subject": "English" }
+    ],
+    "Friday": [
+      { "period": 1, "time": "08:00-08:45", "subject": "Social Science" },
+      { "period": 2, "time": "08:45-09:30", "subject": "English" },
+      { "period": 3, "time": "09:45-10:30", "subject": "Hindi" },
+      { "period": 4, "time": "10:30-11:15", "subject": "Mathematics" },
+      { "period": 5, "time": "11:30-12:15", "subject": "Science" }
+    ],
+    "Saturday": [
+      { "period": 1, "time": "08:00-08:45", "subject": "Computer Science" },
+      { "period": 2, "time": "08:45-09:30", "subject": "Library" },
+      { "period": 3, "time": "09:45-10:30", "subject": "Art" }
+    ]
+  },
+  "S102": {
+    "Monday": [
+      { "period": 1, "time": "08:00-08:45", "subject": "English" },
+      { "period": 2, "time": "08:45-09:30", "subject": "Mathematics" },
+      { "period": 3, "time": "09:45-10:30", "subject": "Hindi" },
+      { "period": 4, "time": "10:30-11:15", "subject": "Science" },
+      { "period": 5, "time": "11:30-12:15", "subject": "Social Science" }
+    ],
+    "Tuesday": [
+      { "period": 1, "time": "08:00-08:45", "subject": "Mathematics" },
+      { "period": 2, "time": "08:45-09:30", "subject": "Science" },
+      { "period": 3, "time": "09:45-10:30", "subject": "English" },
+      { "period": 4, "time": "10:30-11:15", "subject": "Hindi" },
+      { "period": 5, "time": "11:30-12:15", "subject": "Computer Science" }
+    ],
+    "Wednesday": [
+      { "period": 1, "time": "08:00-08:45", "subject": "Science" },
+      { "period": 2, "time": "08:45-09:30", "subject": "Social Science" },
+      { "period": 3, "time": "09:45-10:30", "subject": "Mathematics" },
+      { "period": 4, "time": "10:30-11:15", "subject": "English" },
+      { "period": 5, "time": "11:30-12:15", "subject": "Hindi" }
+    ],
+    "Thursday": [
+      { "period": 1, "time": "08:00-08:45", "subject": "Hindi" },
+      { "period": 2, "time": "08:45-09:30", "subject": "English" },
+      { "period": 3, "time": "09:45-10:30", "subject": "Science" },
+      { "period": 4, "time": "10:30-11:15", "subject": "Mathematics" },
+      { "period": 5, "time": "11:30-12:15", "subject": "Physical Education" }
+    ],
+    "Friday": [
+      { "period": 1, "time": "08:00-08:45", "subject": "Mathematics" },
+      { "period": 2, "time": "08:45-09:30", "subject": "Hindi" },
+      { "period": 3, "time": "09:45-10:30", "subject": "Social Science" },
+      { "period": 4, "time": "10:30-11:15", "subject": "Science" },
+      { "period": 5, "time": "11:30-12:15", "subject": "English" }
+    ],
+    "Saturday": [
+      { "period": 1, "time": "08:00-08:45", "subject": "Library" },
+      { "period": 2, "time": "08:45-09:30", "subject": "Computer Science" },
+      { "period": 3, "time": "09:45-10:30", "subject": "Art" }
+    ]
+  }
+}

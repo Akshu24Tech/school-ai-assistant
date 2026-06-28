@@ -1,0 +1,46 @@
+{
+  "S101": {
+    "Mathematics": [
+      { "exam": "Unit Test 1", "score": 88, "max": 100 },
+      { "exam": "Mid Term", "score": 92, "max": 100 }
+    ],
+    "Science": [
+      { "exam": "Unit Test 1", "score": 79, "max": 100 },
+      { "exam": "Mid Term", "score": 84, "max": 100 }
+    ],
+    "English": [
+      { "exam": "Unit Test 1", "score": 72, "max": 100 },
+      { "exam": "Mid Term", "score": 75, "max": 100 }
+    ],
+    "Social Science": [
+      { "exam": "Unit Test 1", "score": 68, "max": 100 },
+      { "exam": "Mid Term", "score": 71, "max": 100 }
+    ],
+    "Hindi": [
+      { "exam": "Unit Test 1", "score": 81, "max": 100 },
+      { "exam": "Mid Term", "score": 86, "max": 100 }
+    ]
+  },
+  "S102": {
+    "Mathematics": [
+      { "exam": "Unit Test 1", "score": 54, "max": 100 },
+      { "exam": "Mid Term", "score": 49, "max": 100 }
+    ],
+    "Science": [
+      { "exam": "Unit Test 1", "score": 61, "max": 100 },
+      { "exam": "Mid Term", "score": 66, "max": 100 }
+    ],
+    "English": [
+      { "exam": "Unit Test 1", "score": 77, "max": 100 },
+      { "exam": "Mid Term", "score": 82, "max": 100 }
+    ],
+    "Social Science": [
+      { "exam": "Unit Test 1", "score": 70, "max": 100 },
+      { "exam": "Mid Term", "score": 74, "max": 100 }
+    ],
+    "Hindi": [
+      { "exam": "Unit Test 1", "score": 88, "max": 100 },
+      { "exam": "Mid Term", "score": 90, "max": 100 }
+    ]
+  }
+}

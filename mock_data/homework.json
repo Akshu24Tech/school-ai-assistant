@@ -1,0 +1,13 @@
+{
+  "S101": [
+    { "subject": "Mathematics", "title": "Quadratic equations worksheet", "assigned": "2025-11-08", "due": "2025-11-11", "status": "pending" },
+    { "subject": "Science", "title": "Lab report: acids and bases", "assigned": "2025-11-07", "due": "2025-11-10", "status": "pending" },
+    { "subject": "English", "title": "Essay on climate change", "assigned": "2025-11-05", "due": "2025-11-09", "status": "submitted" },
+    { "subject": "Social Science", "title": "Map work: rivers of India", "assigned": "2025-11-09", "due": "2025-11-13", "status": "pending" }
+  ],
+  "S102": [
+    { "subject": "Hindi", "title": "Poem recitation prep", "assigned": "2025-11-08", "due": "2025-11-11", "status": "pending" },
+    { "subject": "Mathematics", "title": "Linear equations practice set", "assigned": "2025-11-06", "due": "2025-11-10", "status": "pending" },
+    { "subject": "Science", "title": "Diagram: human digestive system", "assigned": "2025-11-04", "due": "2025-11-08", "status": "submitted" }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "S101": {
+    "name": "Aarav Sharma",
+    "class": "10-A",
+    "roll_no": 12,
+    "guardian": "Rakesh Sharma",
+    "guardian_id": "P101"
+  },
+  "S102": {
+    "name": "Diya Verma",
+    "class": "9-B",
+    "roll_no": 7,
+    "guardian": "Meena Verma",
+    "guardian_id": "P102"
+  }
+}

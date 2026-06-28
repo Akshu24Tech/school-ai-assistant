@@ -1,0 +1,22 @@
+{
+  "S101": {
+    "monthly_fee": 4500,
+    "currency": "INR",
+    "payments": [
+      { "month": "2025-08", "amount": 4500, "status": "paid", "paid_on": "2025-08-05", "method": "UPI" },
+      { "month": "2025-09", "amount": 4500, "status": "paid", "paid_on": "2025-09-04", "method": "UPI" },
+      { "month": "2025-10", "amount": 4500, "status": "paid", "paid_on": "2025-10-06", "method": "Card" },
+      { "month": "2025-11", "amount": 4500, "status": "pending", "due_date": "2025-11-15" }
+    ]
+  },
+  "S102": {
+    "monthly_fee": 4000,
+    "currency": "INR",
+    "payments": [
+      { "month": "2025-08", "amount": 4000, "status": "paid", "paid_on": "2025-08-09", "method": "UPI" },
+      { "month": "2025-09", "amount": 4000, "status": "pending", "due_date": "2025-09-15" },
+      { "month": "2025-10", "amount": 4000, "status": "pending", "due_date": "2025-10-15" },
+      { "month": "2025-11", "amount": 4000, "status": "pending", "due_date": "2025-11-15" }
+    ]
+  }
+}
