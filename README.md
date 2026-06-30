@@ -3,7 +3,7 @@
 An AI assistant that lets **students, teachers and parents** talk to a school ERP in
 plain language. Ask "what's my attendance this month?" or "show my maths marks and any
 pending fees" and it works out what you mean, calls the right ERP service(s), and
-answers from the data — never from a hardcoded script.
+answers from the data never from a hardcoded script.
 
 Under the hood it's a small **agent**: Gemini plans the request, picks ERP tools using
 native function calling, the app runs them against mock data, and the model composes
@@ -12,15 +12,15 @@ it used, so you can see how it reasoned.
 
 ## What it does
 
-- **Natural-language chat** — `POST /chat`, one endpoint for every kind of question
-- **Real tool calling** — the model chooses from five ERP tools; nothing is keyword-matched
-- **Agent planning** — every answer carries the `plan` the agent followed and `tools_used`
-- **Conversation memory** — follow-ups like "which subject is highest?" resolve in context
-- **Structured responses** — `intent`, `response`, `status`, `plan`, `tools_used`, `data`
-- **Multi-step requests** — one message can trigger several tools and a combined answer
-- **History API** — `GET /chat/history` reads any session's thread back
-- **Audit logging** — every request logged with intent, tools, timing and timestamp
-- **Graceful errors** — empty input, unknown student, missing records and model failures
+- **Natural-language chat**: `POST /chat`, one endpoint for every kind of question
+- **Real tool calling**: the model chooses from five ERP tools; nothing is keyword-matched
+- **Agent planning**: every answer carries the `plan` the agent followed and `tools_used`
+- **Conversation memory**: follow-ups like "which subject is highest?" resolve in context
+- **Structured responses**: `intent`, `response`, `status`, `plan`, `tools_used`, `data`
+- **Multi-step requests**: one message can trigger several tools and a combined answer
+- **History API**: `GET /chat/history` reads any session's thread back
+- **Audit logging**: every request logged with intent, tools, timing and timestamp
+- **Graceful errors**: empty input, unknown student, missing records and model failures
 
 ### The five ERP tools
 
@@ -133,7 +133,7 @@ Try a multi-step one:
 
 Two students ship with the repo: `S101` (Aarav, strong) and `S102` (Diya, some weak
 subjects and pending fees). The assistant treats **2025-11-10 (a Monday)** as "today"
-so "tomorrow" and "this month" answers stay stable while you demo — change `TODAY` in
+so "tomorrow" and "this month" answers stay stable while you demo change `TODAY` in
 `.env` to move the clock.
 
 ## Error handling
@@ -151,8 +151,8 @@ so "tomorrow" and "this month" answers stay stable while you demo — change `TO
 
 Two SQLite logs are written under `data/` (plus a rotating file log in `logs/`):
 
-- **audit** — every request: query, intent, tools used, execution time, response, timestamp
-- **memory** — every conversation turn, keyed by session
+- **audit** every request: query, intent, tools used, execution time, response, timestamp
+- **memory** every conversation turn, keyed by session
 
 ## Tests
 
@@ -166,7 +166,7 @@ handling without calling Gemini.
 
 ## Notes
 
-- Mock ERP data only (JSON) — no real ERP integration, as specified.
+- Mock ERP data only (JSON) no real ERP integration, as specified.
 - No hardcoded answers: the model decides which tool(s) to call and every number is
   derived from the data.
 - `gemini-2.5-flash` by default; change `GEMINI_MODEL` in `.env`.
